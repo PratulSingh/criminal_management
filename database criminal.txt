@@ -1,0 +1,5 @@
+create table fir(fir_id INT not null DEFAULT 10,fir_type VARCHAR(30) not null,fir_status VARCHAR(50) not null,report TEXT not null,fir_date DATE not null,fir_officer VARCHAR(40) not null);
+
+create table crirecord(fname VARCHAR(40) not null,mname VARCHAR(40),lname VARCHAR(40),ffname VARCHAR(40),fmname VARCHAR(40),flname VARCHAR(40),violation VARCHAR(40),contact VARCHAR(40),dob DATE,perstate VARCHAR(40),percity VARCHAR(40),perpincode VARCHAR(40),peradd VARCHAR(100),criminal_id INT not null DEFAULT 10);
+
+create table registration(police_id VARCHAR(20) not null primary key,fname VARCHAR(50) not null,mname VARCHAR(50),lname VARCHAR(50) not null,dob DATE not null,contact VARCHAR(50) not null,per_state VARCHAR(50) not null,per_city VARCHAR(50) not null,per_pincode VARCHAR(50) not null,per_address VARCHAR(50) not null,gender VARCHAR(20) not null,fmname VARCHAR(50) not null,password VARCHAR(50) not null)

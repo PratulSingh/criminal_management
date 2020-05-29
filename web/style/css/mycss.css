@@ -1,0 +1,179 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 28, 2016, 7:14:49 PM
+    Author     : ABHAY
+*/
+
+.btn-me
+{
+    background-color: #006600;
+    border: 1px #25c215 solid;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+.menu
+{
+    margin-top: 20px;
+}
+
+
+.text
+{
+    width: 90%;
+    height: 40px;
+    border:1px black solid;
+    background-color:  #dededf;
+    border-radius: 5px;
+    font-size: large;
+    text-indent: 3.5%;
+}
+
+.button
+{
+    width: 90%;
+    height: 50px;
+    border: 1px #ffffff solid;
+    background-color: #0066ff;
+    border-radius: 5px;
+    font-size: large;
+    
+}
+
+.registertext
+{
+    width: 44.6%;
+    height: 40px;
+    border:1px black solid;
+    background-color:  #dededf;
+    border-radius: 5px;
+    font-size: large;
+    display: inline;
+    margin-bottom: 2%;
+    text-indent: 7%;
+}
+
+.radiobutton
+{
+    text-indent: 3.5%;
+}
+.navbar-default
+{
+    background-color:transparent;
+}
+.pre-scrollable
+{
+    height: 100%;
+    
+}
+
+div.show_document
+{
+    position: relative;
+}
+
+div.show_document:hover img
+{
+    opacity: 0.6;
+}
+
+a.info
+{
+    display: none;
+}
+
+
+div.show_document:hover a.info
+{
+    position: absolute;
+    top:100px;
+    left: 20%;
+    display: block;
+    
+}
+a.dwn
+{
+    display: none;
+}
+
+
+div.show_document:hover a.dwn
+{
+    position: absolute;
+    top:100px;
+    left: 40%;
+    display: block;
+    
+}
+
+
+a.dlt
+{
+    display: none;
+}
+
+
+div.show_document:hover a.dlt
+{
+    position: absolute;
+    top:100px;
+    left: 80%;
+    display: block;
+    
+}
+
+div.show_document:hover a.share
+{
+    position: absolute;
+    top:100px;
+    left: 60%;
+    display: block;
+    
+}
+a.share
+{
+    display: none;
+}
+
+a.restore
+{
+    display: none;
+}
+
+
+div.show_document:hover a.restore
+{
+    position: absolute;
+    top:100px;
+    left: 30%;
+    display: block;
+    
+}
+a.fullname
+{
+    display: none;
+}
+
+
+div.show_document:hover a.fullname
+{
+    position: absolute;
+    top:0px;
+    left: 25%;
+    display: block;
+    
+}
+
+.text1
+{
+    width: 90%;
+    height: 40px;
+    border:1px black solid;
+    background-color:  #dededf;
+    border-radius: 5px;
+    font-size: large;
+    
+}
